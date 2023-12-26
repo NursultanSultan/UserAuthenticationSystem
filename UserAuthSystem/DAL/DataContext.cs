@@ -7,7 +7,7 @@ namespace UserAuthSystem.DAL
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 
     
